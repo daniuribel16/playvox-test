@@ -1,0 +1,36 @@
+.user-container {
+  padding: 2rem 4rem;
+  background-color: #507677;
+  min-height: 100vh;
+}
+
+.pagination {
+  float: right;
+}
+
+.query {
+  width: 100%;
+  margin: 4% auto;
+  padding-left: 4rem;
+  font-size: 1.7rem;
+  color: #becdd2;
+}
+
+.notes-container {
+  background-color: lightcoral;
+  padding: 2rem;
+  text-align: center;
+}
+
+.note {
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background-color: #becdd2;
+  margin-top: 1rem;
+}
+
+.title {
+  color: antiquewhite;
+  font-weight: 600;
+}

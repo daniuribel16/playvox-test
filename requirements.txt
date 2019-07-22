@@ -1,0 +1,8 @@
+flask
+Flask-PyMongo
+Flask
+flask_restful
+python-dotenv
+pymongo[srv]
+schema
+flask_cors

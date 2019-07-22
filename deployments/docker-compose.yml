@@ -1,0 +1,29 @@
+version: "2"
+services:
+  users_api:
+    container_name: users__api_container
+    build:
+      context: ../
+      dockerfile: deployments/users_app/Dockerfile
+    env_file:
+      - ../.env
+    ports:
+      - "5000:5000"
+  users_notes_api:
+    container_name: users_notes_api_container
+    build:
+      context: ../
+      dockerfile: deployments/users_notes_app/Dockerfile
+    env_file:
+      - ../.env
+    ports:
+      - "5001:5001"
+  users_web:
+    container_name: users_web_container
+    build:
+      context: ../
+      dockerfile: deployments/web/Dockerfile
+    env_file:
+      - ../.env
+    ports:
+      - "3000:3000"
